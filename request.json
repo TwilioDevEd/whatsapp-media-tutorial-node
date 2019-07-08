@@ -1,0 +1,15 @@
+{
+  "MediaContentType0": "image/jpeg",
+  "SmsMessageSid": "MM19df5a6293470c5e309890648740986a",
+  "NumMedia": "1",
+  "SmsSid": "MM19df5a6293470c5e309890648740986a",
+  "SmsStatus": "received",
+  "Body": "",
+  "To": "whatsapp:+14155238886",
+  "NumSegments": "1",
+  "MessageSid": "MM19df5a6293470c5e309890648740986a",
+  "AccountSid": "AC4ee8a4bf66c95837fc46316395718baa",
+  "From": "whatsapp:+5213321678083",
+  "MediaUrl0": "https://api.twilio.com/2010-04-01/Accounts/AC4ee8a4bf66c95837fc46316395718baa/Messages/MM19df5a6293470c5e309890648740986a/Media/ME456a12de2891e2a69bc11a23aab6b9c5",
+  "ApiVersion": "2010-04-01"
+}
