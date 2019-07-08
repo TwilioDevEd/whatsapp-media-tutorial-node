@@ -6,4 +6,4 @@ COPY . ./
 
 RUN npm i -g yarn
 
-RUN yarn install
+RUN yarn install && yarn test
