@@ -1,9 +1,7 @@
 const express = require("express");
 const { MessagingResponse } = require("twilio").twiml;
-const mimeTypes = require("mime-types");
 const path = require("path");
 
-const imagesDir = `${path.resolve("./public/images")}`;
 const router = express.Router();
 const goodBoyUrl =
   "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?" +
