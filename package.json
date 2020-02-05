@@ -5,27 +5,26 @@
   "license": "MIT",
   "scripts": {
     "start": "export DEBUG=whatsapp-media-tutorial-node:server && node ./bin/www",
-    "test": "./node_modules/.bin/mocha './{,!(node_modules)/**}/*.spec.js'",
-    "test_watch": "./node_modules/.bin/mocha -w './{,!(node_modules)/**}/*.spec.js'"
+    "test": "./node_modules/.bin/mocha test",
+    "test_watch": "./node_modules/.bin/mocha -w test"
   },
   "dependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-mocha": "^5.3.0",
-    "express": "~4.16.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-mocha": "^6.2.2",
+    "express": "~4.17.1",
     "file-download": "^0.1.2",
-    "http-errors": "~1.6.3",
-    "mime-types": "^2.1.24",
-    "mocha": "^6.1.4",
+    "http-errors": "~1.7.3",
+    "mime-types": "^2.1.26",
+    "mocha": "^7.0.1",
     "morgan": "~1.9.1",
     "should": "^13.2.3",
     "supertest": "^4.0.2",
-    "tracer": "^0.9.8",
-    "twilio": "^3.33.0"
+    "tracer": "^1.0.2",
+    "twilio": "^3.39.4"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mockery": "^2.1.0"
+    "chai": "^4.2.0"
   }
 }

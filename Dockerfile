@@ -1,9 +1,7 @@
-FROM node:latest
+FROM node:12
 
 WORKDIR /root/src
 
 COPY . ./
-
-RUN npm i -g yarn
 
 RUN yarn install && yarn test
