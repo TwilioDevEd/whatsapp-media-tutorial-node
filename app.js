@@ -1,11 +1,8 @@
 const createError = require('http-errors');
 const express = require('express');
 const logger = require('morgan');
-const { promisify } = require('util');
-const fileDownload = require('file-download');
 const indexRouter = require('./routes/index');
 
-const download = promisify(fileDownload);
 const app = express();
 
 if (app.get('env') === 'development') {
@@ -15,12 +12,6 @@ if (app.get('env') === 'development') {
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-
-// inject utility functions
-app.use((req, res, next) => {
-  req.download = download;
-  next();
-});
 
 app.use('/', indexRouter);
 

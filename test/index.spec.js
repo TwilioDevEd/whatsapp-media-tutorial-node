@@ -2,7 +2,6 @@
 
 require('should');
 const fs = require('fs');
-const mockery = require('mockery');
 require('chai');
 
 const supertest = require('supertest');
@@ -17,18 +16,7 @@ function RequestData() {
 }
 
 describe('Index', function () {
-  before(function () {
-    mockery.enable();
-    mockery.registerMock('file-download', (url, opts, done) => {
-      done();
-    });
-  });
-
-  after(function () {
-    mockery.disable();
-  });
-
-  beforeEach(async function () {
+  beforeEach(function () {
     this.session = Session();
   });
 
@@ -41,7 +29,7 @@ describe('Index', function () {
         res.text.should.equal(
           '<?xml version="1.0" encoding="UTF-8"?>'
           + '<Response>'
-          + '<Message>Thanks for the image(s)'
+          + '<Message>Thanks for the image! Here\'s one for you!'
           + '<Media>https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80</Media>'
           + '</Message>'
           + '</Response>',
