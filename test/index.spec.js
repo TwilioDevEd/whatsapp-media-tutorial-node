@@ -16,7 +16,7 @@ function RequestData() {
 }
 
 describe('Index', function () {
-  beforeEach(async function () {
+  beforeEach(function () {
     this.session = Session();
   });
 

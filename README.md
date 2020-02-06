@@ -2,11 +2,11 @@
   <img src="https://static0.twilio.com/marketing/bundles/marketing/img/logos/wordmark-red.svg" alt="Twilio" width="250" />
 </a>
 
-# Twilio Verify Quickstart with Twilio, Node.js, and Express
+# Receive, Download, and Reply with media in WhatsApp Messages. Powered by Twilio - Node.js and Express
 
 [![Build Status](https://travis-ci.org/TwilioDevEd/whatsapp-media-tutorial-node.svg?branch=master)](https://travis-ci.org/TwilioDevEd/whatsapp-media-tutorial-node)
 
-[Read the full quickstart here](https://www.twilio.com/docs/verify/api-beta/quickstarts/node-express)!
+[Read the full quickstart here](https://www.twilio.com/docs/sms/whatsapp/tutorial/send-and-receive-media-messages-whatsapp-nodejs)!
 
 ## Local development
 
@@ -23,14 +23,6 @@ if you don't have one already.
    $ cd whatsapp-media-tutorial-node
    ```
 
-1. Next, open `.env.example` at the root of the project and update it with
-   values from your
-   [Twilio account](https://www.twilio.com/console)
-   and local configuration. Save the file as `.env`.  You'll need to set
-   `TWILIO_AUTH_TOKEN`, `TWILIO_ACCOUNT_SID`, and `VERIFICATION_SID`.
-
-   For the `VERIFICATION_SID` variable you'll need to provision a [Verification Service](https://www.twilio.com/console/verify/services) 
-   
 1. Navigate to the project directory in your terminal and run:
 
       ```bash
