@@ -19,7 +19,7 @@
     "morgan": "~1.9.1",
     "should": "^13.2.3",
     "supertest": "^4.0.2",
-    "tracer": "^1.0.2",
+    "tracer": "^1.1.2",
     "twilio": "^3.39.4"
   },
   "devDependencies": {
