@@ -6,7 +6,6 @@ require('chai');
 
 const supertest = require('supertest');
 
-
 function Session() {
   return supertest(require('../app')); // eslint-disable-line global-require
 }
