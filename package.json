@@ -9,13 +9,13 @@
     "test_watch": "./node_modules/.bin/mocha -w test"
   },
   "dependencies": {
-    "eslint": "^7.5.0",
+    "eslint": "^7.16.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-mocha": "^7.0.1",
     "express": "~4.17.1",
     "http-errors": "~1.8.0",
-    "mocha": "^8.1.0",
+    "mocha": "^8.3.0",
     "morgan": "~1.10.0",
     "should": "^13.2.3",
     "supertest": "^4.0.2",
