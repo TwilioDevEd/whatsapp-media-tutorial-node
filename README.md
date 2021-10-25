@@ -4,7 +4,7 @@
 
 # Receive, Download, and Reply with media in WhatsApp Messages. Powered by Twilio - Node.js and Express
 
-[![Build Status](https://travis-ci.org/TwilioDevEd/whatsapp-media-tutorial-node.svg?branch=master)](https://travis-ci.org/TwilioDevEd/whatsapp-media-tutorial-node)
+[![Node.js CI](https://github.com/TwilioDevEd/whatsapp-media-tutorial-node/actions/workflows/node.js.yml/badge.svg)](https://github.com/TwilioDevEd/whatsapp-media-tutorial-node/actions/workflows/node.js.yml)
 
 [Read the full quickstart here](https://www.twilio.com/docs/sms/whatsapp/tutorial/send-and-receive-media-messages-whatsapp-nodejs)!
 
