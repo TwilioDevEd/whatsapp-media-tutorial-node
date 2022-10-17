@@ -15,7 +15,7 @@
     "eslint-plugin-mocha": "^7.0.1",
     "express": "~4.17.1",
     "http-errors": "~1.8.0",
-    "mocha": "^8.1.0",
+    "mocha": "^10.1.0",
     "morgan": "~1.10.0",
     "should": "^13.2.3",
     "supertest": "^4.0.2",
