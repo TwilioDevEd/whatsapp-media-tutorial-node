@@ -9,7 +9,7 @@
     "test_watch": "./node_modules/.bin/mocha -w test"
   },
   "dependencies": {
-    "eslint": "^7.5.0",
+    "eslint": "^9.15.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-mocha": "^7.0.1",
